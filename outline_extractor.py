@@ -182,7 +182,9 @@ def main():
 
     # Load models
     detector = HeadingDetector(model_path="model/heading_model.pkl")
-    persona_emb = PersonaEmbedder().embed([f"{persona}. {job}"])[0]
+    persona_embedder = PersonaEmbedder()
+    persona_emb = persona_embedder.embed([f"{persona}. {job}"])[0]
+
 
     extracted_sections = []
     subsection_analysis = []

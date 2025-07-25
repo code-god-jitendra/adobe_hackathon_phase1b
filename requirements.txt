@@ -12,6 +12,3 @@ tokenizers==0.15.2
 
 # numpy for embeddings
 numpy==1.26.4
-
-# 🔥 Needed for ranker.py
-sentence-transformers==2.2.2
