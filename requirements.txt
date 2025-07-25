@@ -1,0 +1,17 @@
+# Core PDF/text processing
+PyMuPDF==1.22.3
+
+# ML model (scikit-learn + joblib)
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# ONNX runtime and tokenizer
+onnxruntime==1.16.3
+transformers==4.38.2
+tokenizers==0.15.2
+
+# numpy for embeddings
+numpy==1.26.4
+
+# 🔥 Needed for ranker.py
+sentence-transformers==2.2.2
