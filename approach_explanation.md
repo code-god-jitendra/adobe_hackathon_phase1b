@@ -28,13 +28,13 @@ This context is embedded using transformer-based embeddings and used to rank sec
    - Utilizes **PyMuPDF** to extract text blocks with position, size, boldness, and color.
    - Blocks are normalized and cleaned.
 
-3. **Heading Candidate Detection**
+3. **Heading Candidate Detection** (this part is built from phase1a)
    - Uses heuristics to filter potential headings based on:
      - Font size vs. body size
      - Boldness
      - Positioning (x, y)
      - Color difference
-   - Then, a trained **scikit-learn model (StandardScaler + LogisticRegression)** further classifies the candidates.
+   - Then, a trained **scikit-learn model (StandardScaler + LogisticRegression)** further classifies the candidates (into heading & non heading classes).
    - Model size < **100KB** (very efficient).
 
 4. **Section Ranking (Similarity Scoring)**
