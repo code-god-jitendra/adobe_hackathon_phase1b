@@ -47,6 +47,7 @@ This tool intelligently extracts, ranks, and refines the most relevant sections 
 ## 📦 Build & Run with Docker
 
 ### 🐳 Build:
+Note: Build command can take 5-15 mins or variable depending upon internet speed so have some patience
 
 ```bash
 docker build --platform linux/amd64 -t adobe-phase1bfinal:latest .
@@ -63,12 +64,14 @@ Output will be saved as output/final_output.json
 
 📊 Stats
 Metric	Value
-✅ Output latency	~18–20s / PDF set
+✅ Output latency	~18–20s / PDF set (tested over challenge_1b/collection1 from the hackathon appendix)
 📦 Docker Image Size	1.41 GB
 🧠 Total Model Size (ONNX + ML)	< 100 MB
-🌍 Language Coverage	Tested: EN, HI, FR
+🌍 Language Coverage	Tested: EN, HI, FR, etc
 
 👨‍💻 Maintainers
 Team NoName
-Jitendra Kumar, Team Leader
-Yousha Raza, Member
+Jitendra Kumar, Team Leader, Email: jitendra0905kumar@gmail.com, Github: githum.com/code-god-jitendra
+Yousha Raza, Member, Email: razayousha3@gmail.com
+
+Note: Contact "Jitendra Kumar" for any query or issue related to project 
