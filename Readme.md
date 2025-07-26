@@ -47,7 +47,7 @@ This tool intelligently extracts, ranks, and refines the most relevant sections 
 ## 📦 Build & Run with Docker
 
 ### 🐳 Build:
-Note: Build command can take 5-15 mins or variable depending upon internet speed so have some patience
+Note: Build command can take 5-15 mins or variable depending upon internet speed so have some patience, keep an active internet connection during build phase to download necessary dependecies.
 
 ```bash
 docker build --platform linux/amd64 -t adobe-phase1bfinal:latest .
